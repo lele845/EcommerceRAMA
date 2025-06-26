@@ -1,0 +1,450 @@
+    body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+  background-color: #164A41;
+height: auto;
+
+}
+a
+{
+	text-decoration: none;
+}
+
+h2 {
+	color:black;
+}
+
+.myprofile{
+	margin: 50px;
+	text-align:right;
+	text-decoration: none;
+	color:white;
+}
+
+.myprofile a{
+	color: white;
+	float: left;
+}
+
+.myprofile a:hover{
+	color:#F1B24A ;
+
+}
+
+.myprofile h1{
+	text-align: center;
+	text-decoration: underline;
+	color: #F1B24A
+	
+}
+
+#link {
+	text-decoration:underline;
+	color: #F1B24A;
+}
+.sticky {
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #164A41;
+}
+/*.scroll-list{
+	from: ;
+}
+
+.scroll-element{
+	animation: appear linear;
+	
+}*/
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 100px;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+	border: scrollbar;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead{
+	display:table-footer-group;
+  }
+  #attributes{
+	display:none;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: left;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+  
+  .personalArea a{
+	width: 49px;
+	height: 49px;
+}
+  
+  .topnav{
+  	height: 200px;
+  
+  }
+  
+  .topnav a{
+  	width: 10%;
+  
+  }
+  
+  #addToCart{
+  width: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4D774E; 
+  height: 50px;
+  color: white;
+  
+  }
+  .productImg img{
+  	width: 50px;
+  	height: 100px;
+  margin-left: 70px;
+  }
+  
+  #description{
+  width:500px;
+  text-align: left;
+  }
+  
+  .productElement{
+  width:auto;
+  	float:left;
+  	margin-right: 0px;
+  }
+  
+  .productElement #addToCart{
+width:auto;
+  	font-size: medium;
+  	float: left;
+
+  }
+
+  }
+  
+
+  
+
+
+.productElement .form{
+	margin-top: 10px;
+	padding-top: 5px;
+}
+  
+
+.navbar{
+	width: 600px;
+	
+}
+
+.personalArea a{
+	width: 49px;
+	height: 49px;
+}
+
+.productPage{
+	padding: 50px;
+	margin-bottom: 100px;
+
+}
+
+#back {
+	
+	color: white;
+	font-size: larger;
+	padding: 10px;
+}
+#back:hover{
+	
+	background: #F1B24A;
+	border-radius: 60px;
+}
+
+.productImg{
+	
+float: left;
+}
+
+.productImg img{
+	width: 250px;
+	height: 300px; 
+	 margin-left: 70px;
+}
+
+.productElement{
+	
+	font-size:larger;
+	
+	width: 50% ;
+	height: 100%;
+	float: right;
+	padding: 10px;
+	margin-right:70px;
+}
+
+.form{
+	margin-top: 100px;
+	padding-top: 50px;
+}
+
+
+
+#description{
+	
+	font-size:larger;
+	padding-bottom: 1px;
+	text-align: center;
+	color:white;
+	margin-bottom: 0px;
+}
+
+
+/*Header Css*/
+* {box-sizing: border-box;}
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .personalArea{
+    	float: right;
+    }
+    
+    .personalAreaDetails{
+    	background: #164A41;
+	text-align: center;
+    }
+    .personalAreaDetails a{
+    	float: none;
+    }
+    
+    .navbar{
+    	width: 100%;
+    background: #164A41;
+    }
+    
+    .topnav {
+    	width: 100%;
+      overflow: hidden;
+      background-color: #164A41;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      background: #164A41;
+    }
+    
+    .topnav a:hover {
+      
+      	background: #F1B24A;
+	border-radius: 80px;
+	
+    }
+ 
+    .topnav .search-container {
+      float: center;
+      width:100%;
+      padding: 0px 10px 10px 10px;; 
+    }
+    
+    .topnav input[type=text] {
+      padding: 6px;
+      margin-top: 8px;
+      margin-bottom: 0px;
+      font-size: 17px;
+      border: none;
+    }
+    
+    .topnav .search-container button {
+      float: center;
+      padding: 6px 10px;
+      margin-top: 8px;
+      margin-right: 16px;
+      background: white;
+      font-size: 17px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .topnav .search-container button:hover {
+      background: #ccc;
+    }
+    
+    #headerDetails{
+    	 color: white;
+    }
+    
+    #adminHeader-style{
+    	color: white;
+    	font: italic;
+    }
+    
+  #addToCart {
+
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  background-color: #4D774E; 
+  height: 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#addToCart:hover{
+	
+	background: #F1B24A;
+	}
+	
+	#product{
+		color:black;
+	
+	}
+	
+#product:hover{
+	
+text-decoration: underline;
+
+	
+}
+select{
+
+	padding: 10px;
+	border-radius: 5px;
+	border-color: transparent;
+	width: 80px;
+	
+}
+
+
+option{
+	
+	width: 100%;
+}
+
+option:hover {
+	background: white;
+	width: 100%;
+}
+
+select:hover{
+	
+	border-color: black;
+}
+
+    @media screen and (max-width: 600px) {
+      .topnav .search-container {
+        float: none;
+        color: white;
+      }
+      .topnav a, .topnav input[type=text], .topnav .search-container button {
+		text-align: left;
+        margin: 0;
+        padding: 14px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid white;  
+      }
+      
+      .navbar input[type=text]{
+      	width: 150px;
+      height: 10px;
+      margin-top: 10px;
+      }
+      
+      .navbar button{
+     	display: none;
+		
+      }
+      
+    }
+
+/*footer*/
+.footer {
+   position: fixed ;
+   bottom: 0;
+   width: 100%;
+   height: 80px;
+   background-color:white;
+   color:black;
+   text-align: center;
+}
+
+.footer a{
+	
+	color:black;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+	
+}

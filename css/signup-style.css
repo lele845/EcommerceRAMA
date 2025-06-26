@@ -1,0 +1,159 @@
+body {
+  background-color: #164A41;
+  font: 1em Helvetica;
+  
+}
+
+a{
+	text-decoration: none;
+}
+
+@media screen and(max-width:600px){
+	
+	.whysign{
+		display:none;
+	}
+}
+
+#container {
+  width: 1000px;
+  height: 600;
+  margin: 25px auto;
+  margin-top: 50px;
+}
+
+.whysign {
+  float: right;
+  background-color: #164A41;
+  color: white;
+  width: 420px;
+  height: 400px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.whysign h2{
+	text-align: center;
+}
+
+.whysignLogin {
+  float: left;
+  width: 480px;
+  height: 347px;
+  background-color: #164A41;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+  color: white;
+  text-align: center;
+}
+
+#errorLogin{
+	
+	color: #F1B24A;
+}
+.whyforgotPassword
+{
+	float: left;
+  width: 480px;
+  height: 470px;
+  background-color:#164A41 ;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.whyforgotPassword h1{
+	color: white;
+}
+
+.whyforgotPassword h2{
+	text-align: center;
+	color: #F1B24A;
+}
+
+.whyforgotPassword p{
+	text-align: center;
+	font-style: italic;
+}
+
+.signup {
+  float: left;
+  width: 420px;
+  padding: 30px 20px;
+  background-color:#164A41;
+  text-align: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.signup a{
+	color: white;
+}
+
+.signup a:hover{
+	
+	color: #F1B24A;
+}
+
+
+[type=text],[type=email],[type=number],[type=password],select,option {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  color: black;
+  border-radius: 10px;
+  
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: none;
+  border-radius: 20px;
+  background-color: #4D774E; 
+  height: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+[type=submit]:hover {
+	background:#F1B24A; 
+	
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3em;
+}
+
+p {
+  color: white;
+  font-size: 1.2em;
+  margin: 50px 0 50px 0;
+}
+
+span {
+  font-size: .75em;
+  background-color: white;
+  padding: 2px 5px;
+  color: rgba(0,0,0,.6);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  margin: 5px;
+}
+
+span:hover {
+  color: #53CACE;
+}
+
+p:nth-of-type(2) {
+  font-size: 1em;
+}
